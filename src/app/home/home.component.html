@@ -1,0 +1,50 @@
+<div class="w3-container mt-5">
+  <!-- <div> -->
+
+  <!-- Bar Garph -->
+  <div class="w3-half w3-center">
+    <div style="display: inline-block">
+      <ngx-charts-bar-vertical
+        [title]="title1"
+        [view]="view1"
+        [scheme]="colorScheme1"
+        [results]="single1"
+        [gradient]="gradient1"
+        [xAxis]="showXAxis1"
+        [yAxis]="showYAxis1"
+        [legend]="showLegend1"
+        [showYAxisLabel]="showYAxisLabel1"
+        [xAxisLabel]="xAxisLabel1"
+        style="fill: red"
+      >
+      </ngx-charts-bar-vertical>
+    </div>
+    <div class="mt-5">
+    <h6 class="font-weight-bold text-center">Cases</h6>
+    </div>
+  </div>
+
+  <!-- Pie Chart -->
+  <div class="w3-half w3-center">
+    <div style="display: inline-block">
+      <ngx-charts-pie-chart
+        [view]="view2"
+        [scheme]="colorScheme2"
+        [results]="single2"
+        [gradient]="gradient2"
+        [legend]="showLegend2"
+        [legendPosition]="legendPosition"
+        [labels]="showLabels2"
+        [doughnut]="isDoughnut"
+        (select)="onSelect($event)"
+        (activate)="onActivate($event)"
+        (deactivate)="onDeactivate($event)"
+      >
+      </ngx-charts-pie-chart>
+    </div>
+  </div>
+
+  <!-- </div> -->
+</div>
+<br />
+<br />

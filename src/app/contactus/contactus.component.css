@@ -1,0 +1,27 @@
+.main {
+  background-color: #134f5c;
+}
+.form1 {
+  background-color: #fff;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 500px;
+}
+.form2 {
+  background-color: #fff;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.responsive-map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.responsive-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
